@@ -1,0 +1,14 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "devDependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
